@@ -16,7 +16,7 @@
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav id="menu" aria-label="Navegação principal">
       <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
+      <a href="#projetos">Projetos</a><a href="#servicos">Serviços</a>
       <a href="#habilidades">Habilidades</a><a href="#laboratorio">Laboratório</a>
       <a class="nav-contact" href="#contato">Contato</a>
     </nav><button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="false">Pausar movimento</button>
@@ -27,10 +27,10 @@
       <div class="hero-copy reveal">
         <p class="eyebrow">Jamila Khalifa / Desenvolvimento web / Rio Verde, GO</p>
         <h1>Ciência para observar.<br>Filosofia para perguntar.<br><em>Tecnologia para criar.</em></h1>
-        <p class="hero-text">Desenvolvo sites responsivos e soluções digitais que unem organização, identidade visual e uma experiência simples para quem usa.</p>
+        <p class="hero-text">Desenvolvo sites, portfólios e catálogos digitais para profissionais e pequenos negócios. Da organização do conteúdo à publicação, construo experiências que ajudam pessoas a conhecer seu trabalho e entrar em contato.</p>
         <div class="hero-actions">
           <a class="button primary" href="#projetos">Conhecer projetos</a>
-          <a class="button secondary" href="https://wa.me/5561995962642" target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp ↗</a>
+          <a class="button secondary" href="https://wa.me/5561995962642" target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
         </div>
       </div>
       <div class="hero-visual reveal laboratory-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="monolith"></div><span class="art-coordinate">FIG. 01 / IDEIA EM MOVIMENTO</span><span class="art-cross">+</span></div>
@@ -41,9 +41,10 @@
       <div class="about-content reveal"><div class="about-portrait"><img src="assets/jamila-khalifa.jpeg" alt="Jamila Khalifa com casaco bege diante de concreto" width="1122" height="1402" loading="lazy"><span>01 / OBSERVAR · QUESTIONAR · CONSTRUIR</span></div>
         <h2>Entre ciência, pensamento e construção digital.</h2>
         <div class="about-text">
-          <p>Sou Jamila Khalifa, desenvolvedora web em formação e graduanda em Ciências Biológicas. Minha trajetória reúne ciência, tecnologia e experiência profissional na Polícia Científica, áreas que fortaleceram minha capacidade de análise, organização e resolução de problemas.</p>
-          <p>Tenho interesse especial em criar sites úteis para profissionais e pequenos negócios. Em cada projeto, procuro transformar necessidades reais em páginas intuitivas, responsivas e visualmente coerentes.</p>
-        <p class="philosophy">O que muda quando fazemos uma pergunta diferente?</p></div>
+          <p>Sou Jamila Khalifa, desenvolvedora web e graduanda em Ciências Biológicas. Encontro na ciência, na filosofia e na tecnologia diferentes caminhos para observar, questionar e criar. Esse encontro orienta meu trabalho: compreender um problema, explorar possibilidades e construir soluções com atenção aos detalhes.</p>
+          <p>Desenvolvo sites para profissionais e pequenos negócios, unindo identidade visual, funcionalidade e navegação intuitiva. Cada projeto nasce da escuta e ganha forma em uma experiência digital pensada para quem a utiliza.</p>
+          <p class="philosophy">Acredito que criar começa por questionar: é ao olhar de outro modo para o que existe que abrimos espaço para o que pode existir.</p>
+        </div>
       </div>
     </section>
 
@@ -54,7 +55,7 @@
       </div>
 
       <article class="project-card featured reveal">
-        <div class="project-preview la-graci-preview" aria-label="Representação visual do projeto La Graci">
+        <div class="project-preview interactive-preview la-graci-preview" aria-label="Representação gráfica do projeto La Graci">
           <div class="browser-bar"><i></i><i></i><i></i><span>lagracibolsas.com.br</span></div>
           <div class="mock-store">
             <p>LA GRACI</p><strong>Elegância em cada detalhe</strong>
@@ -67,14 +68,14 @@
           <p>Catálogo digital responsivo com apresentação de produtos, filtros dinâmicos, integração com WhatsApp e painel administrativo conectado ao Supabase.</p>
           <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Supabase</li><li>Netlify</li></ul>
           <div class="project-links">
-            <a href="https://lagracibolsas.com.br/" target="_blank" rel="noopener">Visitar projeto ↗</a>
+            <a href="https://lagracibolsas.com.br/" target="_blank" rel="noopener">Visitar projeto <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
             <span>Código privado</span>
-          </div>
+          </div><details class="case-details"><summary>Explorar o projeto</summary><dl><dt>Necessidade</dt><dd>Apresentar as bolsas e facilitar o contato com a loja.</dd><dt>Solução</dt><dd>Catálogo responsivo com filtros, contato pelo WhatsApp e painel conectado ao Supabase.</dd><dt>Decisão de projeto</dt><dd>Organizar a navegação por produtos e permitir a atualização do catálogo pelo painel.</dd><dt>Entrega</dt><dd>Catálogo publicado, com gestão de produtos e caminho direto para atendimento.</dd></dl></details>
         </div>
       </article>
 
       <article class="project-card reverse reveal">
-        <div class="project-preview tattoo-preview" aria-label="Representação visual do projeto Nat Piercer Tattoo">
+        <div class="project-preview interactive-preview tattoo-preview" aria-label="Representação gráfica do projeto Nat Piercer Tattoo">
           <div class="browser-bar"><i></i><i></i><i></i><span>natpiercer-tattoo</span></div>
           <div class="mock-tattoo"><span>NP</span><strong>Arte, identidade e expressão.</strong><small>PT · EN</small></div>
         </div>
@@ -84,14 +85,14 @@
           <p>Portfólio bilíngue criado para apresentar trabalhos, identidade e informações profissionais com navegação acessível em português e inglês.</p>
           <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Site bilíngue</li></ul>
           <div class="project-links">
-            <a href="https://natpiercertattoo.com.br/" target="_blank" rel="noopener">Visitar projeto ↗</a>
-            <a href="https://github.com/jalkhalifa/natpiercer-tattoo" target="_blank" rel="noopener">Ver código ↗</a>
-          </div>
+            <a href="https://natpiercertattoo.com.br/" target="_blank" rel="noopener">Visitar projeto <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+            <a href="https://github.com/jalkhalifa/natpiercer-tattoo" target="_blank" rel="noopener">Ver código <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          </div><details class="case-details"><summary>Explorar o projeto</summary><dl><dt>Necessidade</dt><dd>Reunir trabalhos e informações profissionais em uma presença digital própria.</dd><dt>Solução</dt><dd>Portfólio com apresentação dos trabalhos e conteúdo em português e inglês.</dd><dt>Decisão de projeto</dt><dd>Organizar o conteúdo para que visitantes encontrem trabalhos e informações de contato.</dd><dt>Entrega</dt><dd>Site publicado com navegação bilíngue.</dd></dl></details>
         </div>
       </article>
 
       <article class="project-card reveal">
-        <div class="project-preview viraveste-preview" aria-label="Representação visual do projeto ViraVeste">
+        <div class="project-preview interactive-preview viraveste-preview" aria-label="Representação gráfica do projeto ViraVeste">
           <div class="browser-bar"><i></i><i></i><i></i><span>ViraVeste · moda circular</span></div>
           <div class="mock-viraveste">
             <div class="vv-heading"><span>ViraVeste</span><small>Seu armário em movimento.</small></div>
@@ -106,13 +107,28 @@
           <ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>SQL</li><li>Cloudflare</li></ul>
           <div class="project-links">
             <span>Projeto escola · código não publicado</span>
-          </div>
+          </div><details class="case-details"><summary>Explorar o projeto</summary><dl><dt>Necessidade</dt><dd>Explorar uma plataforma de compra e venda de peças no contexto acadêmico.</dd><dt>Solução</dt><dd>Catálogo, perfis, mensagens, propostas, pedidos e notificações com autenticação.</dd><dt>Decisão de projeto</dt><dd>Relacionar os fluxos de descoberta, negociação e acompanhamento em uma plataforma.</dd><dt>Entrega</dt><dd>Protótipo acadêmico com funcionalidades integradas. A divisão de autoria será detalhada na apresentação do projeto.</dd></dl></details>
         </div>
       </article>
-    </section>
+    <article class="portfolio-case"><p class="project-number">Projeto 04 / Experiência autoral</p><h3>Este portfólio também é um projeto.</h3><p>Identidade geométrica em tons minerais, animações, exploração interativa e um quiz que transforma respostas em briefing. O formulário conecta uma função de servidor no Netlify ao Supabase.</p><ul class="tags"><li>HTML e CSS</li><li>JavaScript</li><li>Netlify Functions</li><li>Supabase</li></ul><details class="case-details"><summary>Conhecer os bastidores</summary><p>O desafio foi aproximar ciência, filosofia e desenvolvimento em uma experiência útil. A exploração é opcional: projetos e contato ficam disponíveis pela navegação. Os movimentos podem ser pausados e respeitam a preferência do dispositivo.</p></details></article></section>
 
+
+    <section class="section services" id="servicos">
+      <div class="section-heading"><div><p class="section-label">03 / Soluções</p><h2>Uma forma digital<br>para cada necessidade.</h2></div><p>O ponto de partida é entender o que seu negócio precisa comunicar e o que seu visitante precisa fazer.</p></div>
+      <div class="service-grid">
+        <article><span>01 / PRESENÇA</span><h3>Sites institucionais</h3><p>Apresente serviços, informações e canais de contato em um site adaptado ao celular.</p></article>
+        <article><span>02 / IDENTIDADE</span><h3>Portfólios</h3><p>Organize trabalhos e construa uma apresentação coerente com sua identidade profissional.</p></article>
+        <article><span>03 / PRODUTOS</span><h3>Catálogos digitais</h3><p>Facilite a descoberta de produtos e o caminho até o atendimento ou pedido.</p></article>
+        <article><span>04 / AUTONOMIA</span><h3>Integrações e painéis</h3><p>Receba dados de formulários e atualize conteúdos, conforme as necessidades do projeto.</p></article>
+      </div>
+      <p><a class="button secondary" href="#laboratorio">Descobrir meu ponto de partida</a></p>
+    </section>
+    <section class="section process" id="processo">
+      <div class="section-heading"><div><p class="section-label">04 / Processo</p><h2>Da pergunta<br>à construção.</h2></div><p>Você acompanha as decisões e revisa o projeto ao longo do caminho.</p></div>
+      <ol class="process-grid"><li><h3>Entender</h3><p>Conversamos sobre objetivos, público, referências e o conteúdo disponível.</p></li><li><h3>Planejar</h3><p>Definimos páginas, funcionalidades, escopo e proposta de trabalho.</p></li><li><h3>Construir</h3><p>Desenvolvo a interface e as integrações, com momentos de revisão.</p></li><li><h3>Testar e publicar</h3><p>Conferimos navegação e formulários, ajustamos detalhes e organizamos a entrega.</p></li></ol>
+    </section>
     <section class="skills section" id="habilidades">
-      <div class="section-label">03 · Habilidades</div>
+      <div class="section-label">05 / Ferramentas</div>
       <div class="skills-grid reveal">
         <div><span>01</span><h3>Front-end</h3><p>HTML semântico, CSS responsivo e JavaScript para interfaces interativas.</p></div>
         <div><span>02</span><h3>Interfaces</h3><p>Organização visual, experiência do usuário e adaptação para diferentes telas.</p></div>
@@ -122,18 +138,20 @@
     </section>
 
     <section class="section lab-section" id="laboratorio">
-      <div class="section-heading"><div><p class="section-label">04 / Laboratório de ideias</p><h2>Qual forma sua<br>ideia pode ganhar?</h2></div><p>Explore quatro perguntas e descubra um ponto de partida para seu projeto. Sem respostas certas ou erradas.</p></div>
+      <div class="section-heading"><div><p class="section-label">06 / Laboratório de ideias</p><h2>Qual forma sua<br>ideia pode ganhar?</h2></div><p>Explore quatro perguntas e descubra um ponto de partida para seu projeto. Sem respostas certas ou erradas.</p></div>
+      <div class="experiment"><div class="experiment-stage" aria-hidden="true"><div class="experiment-object"><i></i><i></i><i></i><i></i></div></div><div class="experiment-controls"><p class="section-label">EXPERIMENTO / FORMA E PERCEPÇÃO</p><h3>A mesma matéria.<br>Outro ponto de vista.</h3><p>Altere a composição e observe como distância e perspectiva mudam a leitura de uma forma.</p><label for="exp-spread">Distância entre fragmentos</label><input id="exp-spread" type="range" min="0" max="70" value="25"><label for="exp-angle">Ponto de vista</label><input id="exp-angle" type="range" min="-45" max="45" value="15"><button id="exp-reset" type="button" class="button secondary">Restaurar composição</button><p class="experiment-note">Experimento criado com geometria e interação na web.</p></div></div>
       <div class="quiz-shell"><div class="quiz-map" aria-hidden="true"><div class="quiz-shape"></div><p>EXPERIMENTO / 001</p><span id="map-progress">0 / 4 ETAPAS</span></div><div class="quiz-panel"><div class="quiz-top"><span id="quiz-step">INÍCIO</span><button id="quiz-reset" type="button">Recomeçar ↺</button></div><progress id="quiz-progress" max="4" value="0" aria-label="Progresso do briefing"></progress><div id="quiz-content" aria-live="polite"></div><noscript>Ative o JavaScript para explorar o quiz ou use o WhatsApp na seção de contato.</noscript></div></div>
     </section>
+<section class="section faq" id="duvidas"><div class="section-heading"><div><p class="section-label">07 / Antes de começar</p><h2>Perguntas que<br>abrem caminhos.</h2></div></div><details><summary>O site funciona no celular?</summary><p>A adaptação para diferentes telas faz parte do desenvolvimento. Conferimos a navegação no celular e no computador antes da entrega.</p></details><details><summary>Vou conseguir atualizar o conteúdo?</summary><p>Podemos incluir um painel para conteúdos que precisam mudar com frequência. Essa funcionalidade é definida no escopo.</p></details><details><summary>Você ajuda com domínio e publicação?</summary><p>Posso ajudar na configuração do domínio e da hospedagem. Contas, custos e responsabilidades são combinados na proposta.</p></details><details><summary>O que preciso fornecer para começar?</summary><p>Objetivo do site, informações do negócio e os materiais disponíveis, como textos, marca e fotos. Na conversa inicial identificamos o que ainda precisa ser preparado.</p></details><details><summary>Como são definidos prazo e orçamento?</summary><p>A partir da quantidade de páginas, funcionalidades, integrações e disponibilidade de conteúdo. A proposta apresenta escopo, prazo e valor.</p></details><details><summary>Como funciona o acompanhamento depois da entrega?</summary><p>Correções, atualizações e manutenção são combinadas na proposta. A continuidade do acompanhamento depende do serviço contratado.</p></details></section>
     <section class="contact section" id="contato">
-      <p class="section-label">05 / Contato</p>
+      <p class="section-label">08 / Contato</p>
       <div class="contact-content reveal">
         <h2>Tem uma ideia para colocar na web?</h2>
         <p>Estou disponível para conversar sobre sites institucionais, portfólios e catálogos digitais.</p>
         <div class="contact-links">
-          <a href="https://wa.me/5561995962642" target="_blank" rel="noopener noreferrer">WhatsApp · (61) 99596-2642 ↗</a>
-          <a href="mailto:jamilask2018@gmail.com">jamilask2018@gmail.com ↗</a>
-          <a href="https://github.com/jalkhalifa" target="_blank" rel="noopener">github.com/jalkhalifa ↗</a>
+          <a href="https://wa.me/5561995962642" target="_blank" rel="noopener noreferrer">WhatsApp · (61) 99596-2642 <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          <a href="mailto:jamilask2018@gmail.com">jamilask2018@gmail.com <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          <a href="https://github.com/jalkhalifa" target="_blank" rel="noopener">github.com/jalkhalifa <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
         </div>
       </div>
     </section>
@@ -141,5 +159,6 @@
 
   <footer><span>Jamila Khalifa</span><span>Desenvolvido com atenção aos detalhes · <span id="year"></span></span></footer>
   <script src="script.js"></script>
+<div class="cursor-ring" aria-hidden="true"><span></span></div>
 </body>
 </html>
