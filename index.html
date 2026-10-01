@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Jamila Khalifa, desenvolvedora web em Rio Verde, Goiás.">
+  <title>Jamila Khalifa | Desenvolvedora Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Início">JK<span>.</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a><a href="#laboratorio">Laboratório</a>
+      <a class="nav-contact" href="#contato">Contato</a>
+    </nav><button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="false">Pausar movimento</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Jamila Khalifa / Desenvolvimento web / Rio Verde, GO</p>
+        <h1>Ciência para observar.<br>Filosofia para perguntar.<br><em>Tecnologia para criar.</em></h1>
+        <p class="hero-text">Desenvolvo sites responsivos e soluções digitais que unem organização, identidade visual e uma experiência simples para quem usa.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projetos">Conhecer projetos</a>
+          <a class="button secondary" href="https://wa.me/5561995962642" target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal laboratory-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="monolith"></div><span class="art-coordinate">FIG. 01 / IDEIA EM MOVIMENTO</span><span class="art-cross">+</span></div>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="section-label">01 · Sobre</div>
+      <div class="about-content reveal"><div class="about-portrait"><img src="assets/jamila-khalifa.jpeg" alt="Jamila Khalifa com casaco bege diante de concreto" width="1122" height="1402" loading="lazy"><span>01 / OBSERVAR · QUESTIONAR · CONSTRUIR</span></div>
+        <h2>Entre ciência, pensamento e construção digital.</h2>
+        <div class="about-text">
+          <p>Sou Jamila Khalifa, desenvolvedora web em formação e graduanda em Ciências Biológicas. Minha trajetória reúne ciência, tecnologia e experiência profissional na Polícia Científica, áreas que fortaleceram minha capacidade de análise, organização e resolução de problemas.</p>
+          <p>Tenho interesse especial em criar sites úteis para profissionais e pequenos negócios. Em cada projeto, procuro transformar necessidades reais em páginas intuitivas, responsivas e visualmente coerentes.</p>
+        <p class="philosophy">O que muda quando fazemos uma pergunta diferente?</p></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projetos">
+      <div class="section-heading reveal">
+        <div><p class="section-label">02 · Projetos</p><h2>Trabalhos selecionados</h2></div>
+        <p>Projetos desenvolvidos para apresentar marcas, serviços e produtos de forma profissional na web.</p>
+      </div>
+
+      <article class="project-card featured reveal">
+        <div class="project-preview la-graci-preview" aria-label="Representação visual do projeto La Graci">
+          <div class="browser-bar"><i></i><i></i><i></i><span>lagracibolsas.com.br</span></div>
+          <div class="mock-store">
+            <p>LA GRACI</p><strong>Elegância em cada detalhe</strong>
+            <div class="mock-products"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="project-copy">
+          <div class="project-number">Projeto 01</div>
+          <h3>La Graci Bolsas</h3>
+          <p>Catálogo digital responsivo com apresentação de produtos, filtros dinâmicos, integração com WhatsApp e painel administrativo conectado ao Supabase.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Supabase</li><li>Netlify</li></ul>
+          <div class="project-links">
+            <a href="https://lagracibolsas.com.br/" target="_blank" rel="noopener">Visitar projeto ↗</a>
+            <span>Código privado</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reverse reveal">
+        <div class="project-preview tattoo-preview" aria-label="Representação visual do projeto Nat Piercer Tattoo">
+          <div class="browser-bar"><i></i><i></i><i></i><span>natpiercer-tattoo</span></div>
+          <div class="mock-tattoo"><span>NP</span><strong>Arte, identidade e expressão.</strong><small>PT · EN</small></div>
+        </div>
+        <div class="project-copy">
+          <div class="project-number">Projeto 02</div>
+          <h3>Nat Piercer Tattoo</h3>
+          <p>Portfólio bilíngue criado para apresentar trabalhos, identidade e informações profissionais com navegação acessível em português e inglês.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Site bilíngue</li></ul>
+          <div class="project-links">
+            <a href="https://natpiercertattoo.com.br/" target="_blank" rel="noopener">Visitar projeto ↗</a>
+            <a href="https://github.com/jalkhalifa/natpiercer-tattoo" target="_blank" rel="noopener">Ver código ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-preview viraveste-preview" aria-label="Representação visual do projeto ViraVeste">
+          <div class="browser-bar"><i></i><i></i><i></i><span>ViraVeste · moda circular</span></div>
+          <div class="mock-viraveste">
+            <div class="vv-heading"><span>ViraVeste</span><small>Seu armário em movimento.</small></div>
+            <strong>Seu próximo achado já teve uma história.</strong>
+            <div class="vv-products"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="project-copy">
+          <div class="project-number">Projeto 03 · Projeto Escola</div>
+          <h3>ViraVeste</h3>
+          <p>Plataforma de moda circular criada para conectar pessoas interessadas em comprar e vender peças. O projeto reúne catálogo, perfis com armários, mensagens, propostas, pedidos e uma central de notificações protegida por autenticação.</p>
+          <ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>SQL</li><li>Cloudflare</li></ul>
+          <div class="project-links">
+            <span>Projeto escola · código não publicado</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="skills section" id="habilidades">
+      <div class="section-label">03 · Habilidades</div>
+      <div class="skills-grid reveal">
+        <div><span>01</span><h3>Front-end</h3><p>HTML semântico, CSS responsivo e JavaScript para interfaces interativas.</p></div>
+        <div><span>02</span><h3>Interfaces</h3><p>Organização visual, experiência do usuário e adaptação para diferentes telas.</p></div>
+        <div><span>03</span><h3>Integrações</h3><p>Supabase, formulários, catálogos, painéis administrativos e WhatsApp.</p></div>
+        <div><span>04</span><h3>Publicação</h3><p>GitHub, GitHub Pages, Netlify, configuração de domínio e manutenção.</p></div>
+      </div>
+    </section>
+
+    <section class="section lab-section" id="laboratorio">
+      <div class="section-heading"><div><p class="section-label">04 / Laboratório de ideias</p><h2>Qual forma sua<br>ideia pode ganhar?</h2></div><p>Explore quatro perguntas e descubra um ponto de partida para seu projeto. Sem respostas certas ou erradas.</p></div>
+      <div class="quiz-shell"><div class="quiz-map" aria-hidden="true"><div class="quiz-shape"></div><p>EXPERIMENTO / 001</p><span id="map-progress">0 / 4 ETAPAS</span></div><div class="quiz-panel"><div class="quiz-top"><span id="quiz-step">INÍCIO</span><button id="quiz-reset" type="button">Recomeçar ↺</button></div><progress id="quiz-progress" max="4" value="0" aria-label="Progresso do briefing"></progress><div id="quiz-content" aria-live="polite"></div><noscript>Ative o JavaScript para explorar o quiz ou use o WhatsApp na seção de contato.</noscript></div></div>
+    </section>
+    <section class="contact section" id="contato">
+      <p class="section-label">05 / Contato</p>
+      <div class="contact-content reveal">
+        <h2>Tem uma ideia para colocar na web?</h2>
+        <p>Estou disponível para conversar sobre sites institucionais, portfólios e catálogos digitais.</p>
+        <div class="contact-links">
+          <a href="https://wa.me/5561995962642" target="_blank" rel="noopener noreferrer">WhatsApp · (61) 99596-2642 ↗</a>
+          <a href="mailto:jamilask2018@gmail.com">jamilask2018@gmail.com ↗</a>
+          <a href="https://github.com/jalkhalifa" target="_blank" rel="noopener">github.com/jalkhalifa ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Jamila Khalifa</span><span>Desenvolvido com atenção aos detalhes · <span id="year"></span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
