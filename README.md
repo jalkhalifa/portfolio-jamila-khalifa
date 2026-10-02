@@ -4,6 +4,25 @@ Portfólio de desenvolvimento web que reúne projetos, serviços e uma experiên
 
 **[Visitar o portfólio](https://portfolio-jamila-khalifa.netlify.app/)**
 
+## Prévia do projeto
+
+### Computador
+
+**Página inicial**
+
+![Página inicial do portfólio de Jamila Khalifa no computador](docs/images/inicio-desktop.png)
+
+**Laboratório — forma e percepção**
+
+![Experimento geométrico com controles de distância e rotação no computador](docs/images/laboratorio-desktop.png)
+
+### Celular
+
+<p>
+  <img src="docs/images/inicio-mobile.jpeg" alt="Página inicial do portfólio no celular" width="280">
+  <img src="docs/images/laboratorio-mobile.jpeg" alt="Experimento geométrico do Laboratório no celular" width="280">
+</p>
+
 ## Proposta
 
 Apresentar meu trabalho como desenvolvedora web e facilitar o primeiro contato com profissionais e pequenos negócios. A identidade visual combina tons de areia, formas geométricas e referências ao brutalismo em uma composição clara e experimental.
