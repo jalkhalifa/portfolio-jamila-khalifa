@@ -30,3 +30,22 @@ body{background-image:none}.hero{position:relative}.hero::before,.hero::after{co
 @media(max-width:1000px){.service-grid,.process-grid{grid-template-columns:repeat(2,1fr)}.header{gap:12px}nav{gap:12px}}
 @media(max-width:620px){.service-grid,.process-grid,.experiment{grid-template-columns:1fr}.experiment-stage{min-height:290px}.experiment-controls{border-left:0;border-top:1px solid var(--ink);padding:24px}.experiment-object{width:140px;height:140px}.experiment-object i{width:65px;height:65px}.scroll-fragment{right:18px;top:25px;width:20px;height:20px}.portfolio-case{padding:24px}.hero::before{left:25px;top:25px;width:45px}.hero::after{right:25px;width:65px}.project-preview{transform:none!important}.cursor-ring{display:none!important}}
 @media(prefers-reduced-motion:reduce){.cursor-ring{display:none!important}.project-preview,.scroll-fragment{transform:none!important}.laboratory-art{translate:none!important}}
+
+/* Responsive previews and visible scroll-driven geometry. */
+button{color:var(--ink);-webkit-appearance:none;appearance:none}
+.menu-button,.motion-toggle{color:var(--ink)}
+.mock-store{height:auto;min-height:390px;padding-bottom:28px}
+.mock-store strong{margin:38px auto 38px}
+.mock-viraveste{height:auto;min-height:390px;padding-bottom:28px}
+.preview-caption{position:relative;clear:both;margin-top:18px;line-height:1.5}
+.hero h1{font-size:clamp(42px,4.7vw,68px)}
+.scroll-fragment{top:20px;right:7vw;width:48px;height:48px;opacity:.75;transform:translateX(var(--scroll-x,0px)) rotate(var(--scroll-angle,0deg));will-change:transform}
+.scroll-fragment::after{content:'';position:absolute;inset:9px;border:1px solid var(--ink);border-radius:50%}
+.scroll-fragment.round::after{border-radius:0;inset:12px;background:var(--green)}
+.motion-off .scroll-fragment{transform:none!important}
+@media(max-width:620px){
+ .header{padding:14px 20px;gap:10px}.brand{font-size:29px}.menu-button{font-size:13px}.motion-toggle{font-size:10px;padding:6px 3px}nav{top:100%}
+ .hero{padding:32px 25px 60px;gap:28px}.hero h1{font-size:clamp(32px,9vw,38px);margin:18px 0 22px;line-height:1.06}.hero-text{font-size:15px;line-height:1.6}.hero-actions{margin-top:24px;gap:10px}.eyebrow{font-size:10px;letter-spacing:.12em}.hero::before{display:none}
+ .section{padding-top:100px}.scroll-fragment{top:20px;right:40px;width:36px;height:36px}.scroll-fragment::after{inset:7px}.scroll-fragment.round::after{inset:9px}
+ .mock-store{min-height:0;padding:30px 9% 22px}.mock-store strong{font-size:28px;margin:28px auto}.mock-products span{height:78px}.mock-viraveste{min-height:0}.mock-viraveste>strong{margin:28px 0}.preview-caption{font-size:10px;margin-top:16px}
+}
